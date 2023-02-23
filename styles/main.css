@@ -1,0 +1,45 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.container .main-window {
+  height: 400px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .main-window .main-window-item {
+  width: 400px;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.container .main-window .main-window-item img {
+  max-width: 400px;
+  height: 300px;
+}
+.container .secondary-windows {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: yellow;
+}
+.container .secondary-windows .secondary-window-item {
+  width: 30%;
+  height: 150px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .secondary-windows .secondary-window-item img {
+  max-width: 200px;
+  height: 150px;
+}/*# sourceMappingURL=main.css.map */
